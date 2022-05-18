@@ -1,0 +1,9 @@
+package holia;
+
+public class IntNode {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

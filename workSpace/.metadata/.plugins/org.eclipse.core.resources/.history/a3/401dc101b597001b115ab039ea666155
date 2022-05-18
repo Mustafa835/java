@@ -1,0 +1,13 @@
+package holia;
+
+public class MainIntNode {
+
+	public static void main(String[] args) {
+
+		IntNode n = new IntNode(5);
+		IntNode n1 = new IntNode(7,n);
+		IntNode n2 = new IntNode(4,n1);
+		IntNode temp = new IntNode(56,n.getNext());
+	}
+
+}

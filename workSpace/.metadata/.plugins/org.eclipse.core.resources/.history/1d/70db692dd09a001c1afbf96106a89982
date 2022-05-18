@@ -1,0 +1,68 @@
+package intNode;
+
+public class intNode {
+
+	private int info = 0;
+	private intNode next = null;
+	
+	public intNode(int x) {
+		this.setInfo(x);
+	}
+	public intNode(int x, intNode next) {
+		this.setInfo(x);
+		this.setNext(next);
+	}
+	
+	public void setNext(intNode next) {
+		this.next = next;
+	}
+	public intNode getNext() {
+		return this.next;
+	}
+	public void setInfo(int x) {
+		this.info = x;
+	}
+	public int getInfo() {
+		return this.info;
+	}
+
+ public static void main(String[] args) {
+		
+		intNode n = new intNode(5);
+		intNode n2 = new intNode(55);
+		intNode n3 = new intNode(555);
+		intNode n4 = new intNode(52);
+		
+		n.setNext(n2);
+		n2.setNext(n3);
+		n3.setNext(n4);
+		
+		intNode pos = n;
+		int max =  Integer.MIN_VALUE;;
+		while(pos != null) {
+			System.out.println(pos.getInfo());
+			if(max < pos.getInfo()) {
+				max = pos.getInfo();
+			}
+			pos = pos.getNext();
+			
+		}
+		System.out.println("max = "+max);
+		
+		int totalSum = getchansum(pos);
+		System.out.println(totalSum);
+	}
+ 
+ 
+ 
+ public static int getchansum(intNode chain)
+ {
+	 int sum =0;
+	 while(chain != null)
+	 {
+		 sum += chain.getInfo();
+		 chain = chain.getNext();
+	 }
+	 return sum;
+ }
+}

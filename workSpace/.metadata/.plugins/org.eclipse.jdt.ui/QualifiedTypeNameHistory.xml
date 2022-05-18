@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="person.person"/>
+    <fullyQualifiedTypeName name="person.Lecturer"/>
+    <fullyQualifiedTypeName name="person.course"/>
+    <fullyQualifiedTypeName name="sun.tools.tree.InstanceOfExpression"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.serialize.Printer"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Koreli"/>
+    <fullyQualifiedTypeName name="Circle"/>
+    <fullyQualifiedTypeName name="Point"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="test.Test"/>
+    <fullyQualifiedTypeName name="test.Course"/>
+    <fullyQualifiedTypeName name="companyBus.bus"/>
+    <fullyQualifiedTypeName name="cats.SiamiCat"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="unit4.collectionsLib.Queue"/>
+    <fullyQualifiedTypeName name="unit4.collectionsLib.Node"/>
+</qualifiedTypeNameHistroy>

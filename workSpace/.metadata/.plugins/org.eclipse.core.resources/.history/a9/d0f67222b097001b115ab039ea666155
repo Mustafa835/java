@@ -1,0 +1,9 @@
+package holia;
+
+public class sumIndex {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
